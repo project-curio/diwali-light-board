@@ -1,0 +1,12 @@
+{
+  "wled_host": "YOUR_WLED_IP",
+  "brightness": 25,
+  "effect_cards": {
+    "diya": "REPLACE_DIYA_ID",
+    "bloom": "REPLACE_BLOOM_ID",
+    "orbit": "REPLACE_ORBIT_ID",
+    "sparkle": "REPLACE_SPARKLE_ID",
+    "peacock": "REPLACE_PEACOCK_ID"
+  },
+  "start_stop_card": "REPLACE_START_STOP_ID"
+}

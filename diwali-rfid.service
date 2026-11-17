@@ -1,0 +1,15 @@
+[Unit]
+Description=Curio music and Diwali light cards
+After=pipewire-pulse.service
+Wants=pipewire-pulse.service
+StartLimitIntervalSec=60
+StartLimitBurst=5
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -B "%h/diwali-lights/diwali_rfid.py"
+Restart=on-failure
+RestartSec=5
+KillMode=control-group
+TimeoutStopSec=20
+UMask=0077

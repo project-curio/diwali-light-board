@@ -1,0 +1,8 @@
+.private/
+__pycache__/
+*.py[cod]
+*.local.json
+cards.json
+.env
+.env.*
+*.log
